@@ -1,0 +1,99 @@
+body, a {
+  font-family: 'Vollkorn', serif;
+  font-size: 12px;
+}
+a, a:visited {
+  color: #000;
+}
+h1, h2 {
+  font-weight: normal;
+}
+h3 {
+  color: #000;
+  font-size: 12px;
+  margin: 0;
+}
+p {
+  margin: 5px 0 0 0;
+}
+#resume {
+  margin: 0 auto;
+  max-width: 8in;
+}
+header {
+  height: 100px;
+  overflow: auto;
+}
+section {
+  border-top: 1px solid #bbb;
+  overflow: auto;
+}
+article {
+  border-bottom: 1px dotted #bbb;
+  padding: 17px 0;
+}
+article:first-child {
+  padding: 0 0 17px 0;
+}
+article:last-child {
+  border-bottom: none;
+  padding: 17px 0 0 0;
+}
+.name {
+  float: left;
+  font-size: 44px;
+  line-height: 100px;
+  margin: 0;
+}
+.title {
+  color: rgba(37,130,196,1);
+  font-size: 22px;
+  margin: 0;
+}
+.personal-info {
+  float: right;
+  margin-top: 25px;
+  text-align: right;
+}
+.col-left {
+  float: left;
+  padding: 2.5%;
+  text-align: right;
+  width: 15%;
+}
+.col-right {
+  float: right;
+  padding: 2.5%;
+  width: 75%;
+}
+.org {
+  line-height: 20px;
+  margin-bottom: 5px;
+}
+.org h3 {
+  display: inline;
+}
+.spacer {
+  color: #bbb;
+  padding: 0 10px;
+}
+.location, .dates, .details {
+  color: #bbb;
+}
+.details ul, .details ol {
+  list-style-type: circle;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding-left: 20px;
+}
+.row {
+  margin-bottom: 10px;
+}
+.row:last-child {
+  margin-bottom: 0;
+}
+@media print {
+  #resume {
+    margin: -.25in auto;
+  }
+}
